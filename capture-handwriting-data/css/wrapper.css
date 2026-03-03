@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css');
+
+@import url('base/variables.css');
+@import url('base/reset.css');
+@import url('base/override.css');
+@import url('modules/capture.css');

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Capture Handwriting Data</title>
+  <link rel="stylesheet" href="css/wrapper.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="sentence-display-area">
+      <h2 id="sentenceText"></h2>
+    </div>
+
+    <div class="controls-section">
+      <div class="stats-badge" id="stats">Sample: 1/0 | Pts: 0</div>
+      <div class="button-group">
+        <button class="btn btn-error" onclick="clearCanvas()">Clear</button>
+        <button class="btn btn-success" onclick="downloadData()">Download JSON</button>
+      </div>
+    </div>
+  </header>
+    
+  <div id="canvas-container">
+    <canvas id="hwCanvas"></canvas>
+  </div>
+
+  <script src="js/modules/capture.js"></script>
+</body>
+</html>
